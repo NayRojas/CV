@@ -4,7 +4,7 @@
 body {
     font-family: 'Open Sans', serif;
     padding-top: 54px;
-    color: #868e96;
+    color: #444444;
 }
 
 @media (min-width: 992px) {
@@ -36,20 +36,23 @@ h2 {
 }
 
 a {
-    color: #a30404;
+    color: #ffffff;
+}
+.red {
+    color: #8f0303;
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #a30404;
+    color: #ffffff;
 }
 
 .subheading {
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'Saira Extra Condensed', serif;
-    font-size: 1.35rem;
+    font-size: 2rem;
 }
 
 /*==================================================
@@ -60,7 +63,7 @@ a:active {
   }
 
   .list-social-icons a:hover {
-      color: #a30404;
+      color: #8f0303;
   }
 
   .list-social-icons a .fa-lg {
@@ -102,7 +105,7 @@ a:active {
       #sideNav .navbar-brand .img-profile {
           max-width: 10rem;
           max-height: 10rem;
-          border: 0.5rem solid rgba(255, 255, 255, 0.2);
+          border: 0.5rem solid rgba(173, 173, 173, 0.2);
       }
       #sideNav .navbar-collapse {
           display: flex;
@@ -138,34 +141,39 @@ a:active {
     text-transform: uppercase;
 }
 
+{
+
+}
 .btn-white {
-    border-color: #a30404;
-    background-color: #a30404;
+    border-color: #8f0303;
+    background-color: #8f0303;
     color: #fff;
 }
 
 .btn-white:hover,
 .btn-white:focus {
     background-color: transparent;
-    color: #a30404;
+    color: #8f0303;
     cursor: pointer;
 }
 
 .btn-green {
-    border-color: #a30404;
-    color: #a30404;
+    background: #5e5e5e;
+    color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 3px;
 }
 
 .btn-green:hover,
 .btn-green:focus {
-    background-color: #a30404;
+    background-color: #8f0303;
     color: #fff;
     cursor: pointer;
 }
 
 .btn-cv {
-    background-color: rgb(224, 224, 224);
-    color:#a30404;
+    background-color: #8f0303;
+    color:rgb(255, 255, 255);
     text-align: center;
     border-width: 1px;
     border-radius: 5px;
@@ -177,11 +185,11 @@ a:active {
 }
 
 .btn-cv:hover{
-    background-color: rgb(255, 254, 254);
+    background-color: rgb(8, 8, 8);
     font-weight: 700;
-
-
+    color:rgb(255, 255, 255);
 }
+
 
 /*==================================================
                   SECTION (Generic)
@@ -189,7 +197,7 @@ a:active {
   .heading-border {
       width: 60px;
       height: 10px;
-      background-color: #a30404;
+      background-color: #8f0303;
       margin: 0 auto 20px auto;
   }
 
@@ -220,18 +228,20 @@ a:active {
   }
 
   .bg-primary {
-      background-color: #a30404 !important;
+      background-color: #ffffff !important;
+      box-shadow: 9px 11px 25px -9px rgba(0, 0, 0, 0.63);
+      
   }
 
   .text-primary {
-      color: #a30404 !important;
+      color: #8f0303 !important;
   }
 
 /*==================================================
                       ABOUT
 ====================================================*/
   #about {
-      background-image: url(../img/profile-banner3.png); 
+      background-image: url(); 
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
@@ -444,8 +454,9 @@ a:active {
 }
 
 .skill-item i {
-    color: #a30404;
+    color: #8f0303;
 }
+
 
 .skill-item h2 {
     color: rgb(49, 48, 48);
@@ -464,6 +475,7 @@ a:active {
     margin-top: 0;
 }
 
+
 .icon-bar {
     width: 100%;
     height: 50%;
@@ -479,6 +491,16 @@ a:active {
     padding: 12px 15px;
   }
   
+  
+@media (min-width: 320px) {
+    .icon-bar img{
+        float: initial;
+        width: 18%;
+        height: 18%;
+        text-align: center;
+        padding: 12px 15px;
+        }
+}
 
 /*====================================================
                       AWARD
@@ -571,7 +593,7 @@ a:active {
 }
 
 #award-box .award:hover .award-icon:before {
-    background: #a30404;
+    background: #8f0303;
 }
 
 #award-box .award-content {
@@ -604,8 +626,8 @@ a:active {
 }
 
 #award-box .award:hover .award-content:before {
-    background: #a30404;
-    border-color: #a30404;
+    background: #8f0303;
+    border-color: #8f0303;
 }
 
 #award-box .award-content:after {
@@ -622,7 +644,7 @@ a:active {
     display: block;
     font-size: 15px;
     font-weight: 600;
-    color: #a30404;
+    color: #8f0303;
     margin: 0 0 8px;
     transition: all 0.3s ease 0s;
 }
@@ -639,7 +661,7 @@ a:active {
 }
 
 #award-box .award:hover .title {
-    color: #a30404;
+    color: #8f0303;
 }
 
 #award-box .description {
@@ -749,7 +771,7 @@ a:active {
 }
 
 .contact-box-desc h3 i{
-  color: #a30404;
+  color: #8f0303;
 }
 
 .social-icon-f li{
@@ -760,7 +782,7 @@ a:active {
   height: 35px;
   width:35px;
   line-height: 35px;
-  border:2px solid #a30404;
+  border:2px solid #8f0303;
   text-align: center;
   margin-right: 10px;
   border-radius: 50%;
