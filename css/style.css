@@ -141,9 +141,7 @@ a:active {
     text-transform: uppercase;
 }
 
-{
 
-}
 .btn-white {
     border-color: #8f0303;
     background-color: #8f0303;
@@ -247,9 +245,9 @@ a:active {
       background-repeat: no-repeat;
   }
 
-  #about h1 {
+  /* #about h1 { */
     /*font-size: 100%;*/
-  }
+  /* } */
 
 /*==================================================
                     EXPERIENCE
