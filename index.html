@@ -68,15 +68,15 @@ License URL: https://creativecommons.org/licenses/by/4.0/
     ======================================================-->
         <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
             <div class="my-auto">
-                <!-- <img src="img/back.png" class="img-fluid mb-3" alt=""> -->
+                <!-- <img src="img/back2.png" class="img-fluid mb-3" alt=""> -->
                 <h1 class="mb-0">Nay
                     <span class="text-primary">Rojas</span>
                 </h1>
                 <div class="subheading mb-5">FRONT-END DEVELOPER
                 </div>
-                <p class="mb-5 p-main" style="max-width: 600px;">Aficionada al autoaprendizaje y el impacto transformador que tiene programar. Tengo experiencia en Marketing Digital, actualmente estudio programación en Laboratoria, este cambio ha potenciado mis habilidades para la creación de productos
-                    como un arte que requiere pasión, iteración y mucha adaptación. </br>
-                    Amo la organización, me apasiona la salud y el arte en sus distintas expresiones.</br>
+                <p class="mb-5 p-main" style="max-width: 600px;">Tengo experiencia en Marketing Digital y actualmente soy <strong>Front-end Developer</strong>. Ambas carreras han potenciado mis habilidades para la creación de productos como un arte que requiere pasión, iteración y mucha adaptación.</br>
+                    </br>
+                    Aficionada por el autoaprendizaje y el gran impacto que tiene programar.</br>
                     </br> <strong>¡Hagamos historia!</strong></p>
                 <ul class="list-inline list-social-icons mb-0 padding">
                     <li class="list-inline-item">
@@ -248,7 +248,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                             <img src="img/css.png" alt="logo css">
                             <span class="gray caption">CSS3</span>
                         </div>
-                        <div class="item">
+                        <div class="item nine-up">
                             <img src="img/fb.png" alt="logo firebase">
                             <span class="gray caption">Firebase</span>
                         </div>
@@ -406,17 +406,18 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                 <div class="contact-cont">
                     <h3>Charlemos...</h3>
                     <div class="heading-border-light"></div>
-                    <p>Creemos experiencias inolvidables, productos que cambien vidas y vinculos que creen equipos transformadores. </p>
+                    <p>Creemos experiencias inolvidables, productos que cambien vidas y vínculos que creen equipos transformadores. </p>
                 </div>
                 <div>
                     <form class="row con-form" method="POST" action="https://formspree.io/nayllen.rojas@gmail.com">
                         <div class="col-md-12">
-                            <input type="text" name="full-name" placeholder="Nombre" class="form-control">
+                            <input type="text" name="full-name" placeholder="Escribe un nick" class="form-control">
                         </div>
                         <div class="col-md-12">
-                            <input type="text" name="email" placeholder="Email" class="form-control">
+                            <input type="text" name="email" placeholder="Tu email es..." class="form-control">
                         </div>
-                        <div class="col-md-12"><textarea placeholder="  Descarga tus ideas aquí..." name="" id=""></textarea></div>
+                        <label class="col-md-12" for="">Descarga tus ideas &#x1F447 y si te da flojera pasa a la derecha &#x1F449;</label>
+                        <div class="col-md-12 margin-top"><textarea placeholder="¡Creeme realmente leo todos mis correos!" name="" class="fa"></textarea></div>
                         <div class="col-md-12 sub-but"><button class="btn btn-general btn-white" role="button">¡Quiero charlar!</button></div>
                     </form>
                 </div>
@@ -982,7 +983,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 
             $(".filter-b ").click(function() {
                 var value = $(this).attr('data-filter');
-                if (value == "all ") {
+                if (value == "all") {
                     $('.filter').show('1000');
                 } else {
                     $(".filter ").not('.' + value).hide('3000');
